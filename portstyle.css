@@ -326,6 +326,7 @@ background-color: transparent;
 .section-title{
     color: #64FFDA;
     font-size: 2.5em;
+    border-bottom:#185f4f 1px solid;
 }
 
 .project-card {

@@ -613,9 +613,13 @@ background-color: transparent;
 }
 
 .project-image img {
-    width: 100%; 
+    width: 115%; 
     max-width: 300px; 
 }
+.project-image  .poke {
+    width: 95%; 
+}
+
 .icon-project  {
     font-size: 0.6em;
     

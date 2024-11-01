@@ -8,11 +8,6 @@ const navLinks = {
     4: document.getElementById('nav-contact')
 };
 
-// removing active
-function removeActiveClass() {
-    Object.values(navLinks).forEach(link => link.classList.remove('active'));
-}
-
 // updating active
 carousel.addEventListener('slid.bs.carousel', function (event) {
     removeActiveClass();  
@@ -21,6 +16,12 @@ carousel.addEventListener('slid.bs.carousel', function (event) {
         navLinks[activeIndex].classList.add('active');  
     }
 });
+
+// removing active
+function removeActiveClass() {
+    Object.values(navLinks).forEach(link => link.classList.remove('active'));
+}
+
 
 // navigation control in carousel
 document.addEventListener("DOMContentLoaded", function () {

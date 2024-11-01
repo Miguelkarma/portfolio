@@ -1,4 +1,4 @@
-
+// Init
 const carousel = document.getElementById('carouselExampleCaptions');
 const navLinks = {
     0: document.getElementById('nav-home'),
@@ -8,12 +8,12 @@ const navLinks = {
     4: document.getElementById('nav-contact')
 };
 
-
+// removing active
 function removeActiveClass() {
     Object.values(navLinks).forEach(link => link.classList.remove('active'));
 }
 
-
+// updating active
 carousel.addEventListener('slid.bs.carousel', function (event) {
     removeActiveClass();  
     const activeIndex = event.to;  
@@ -22,7 +22,7 @@ carousel.addEventListener('slid.bs.carousel', function (event) {
     }
 });
 
-
+// navigation control in carousel
 document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelectorAll('.nav-link[data-bs-slide-to]');
     const carousel = new bootstrap.Carousel(document.getElementById('carouselExampleCaptions'));
@@ -38,20 +38,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-$(document).ready(function() {
-    
-   
-    $('#apple').show().addClass('active');
-  
-   
-    $('#workList .list-group-item').click(function() {
-     
-      $('#workList .list-group-item').removeClass('active');  
-      $(this).addClass('active');  
-  
-      $('.content-item').hide().removeClass('active');  
-  
-      const target = $(this).data('target');  
-      $('#' + target).fadeIn().addClass('active');  
-    });
-});

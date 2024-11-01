@@ -1,12 +1,12 @@
 // Init
 const carousel = document.getElementById('carouselExampleCaptions');
-const navLinks = {
-    0: document.getElementById('nav-home'),
-    1: document.getElementById('nav-about'),
-    2: document.getElementById('nav-certifications'),
-    3: document.getElementById('nav-projects'),
-    4: document.getElementById('nav-contact')
-};
+const navLinks = [
+     document.getElementById('nav-home'),
+     document.getElementById('nav-about'),
+     document.getElementById('nav-certifications'),
+     document.getElementById('nav-projects'),
+     document.getElementById('nav-contact')
+];
 
 // updating active
 carousel.addEventListener('slid.bs.carousel', function (event) {

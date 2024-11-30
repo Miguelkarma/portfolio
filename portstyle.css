@@ -326,7 +326,7 @@ background-color: transparent;
 .section-title{
     color: #64FFDA;
     font-size: 2.5em;
-    border-bottom:#185f4f 1px solid;
+    border-bottom: #63E6BE 1px solid;
 }
 
 .project-card {
@@ -365,6 +365,7 @@ background-color: transparent;
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #63E6BE;
+   
 }
 
 .project-description {
@@ -605,6 +606,9 @@ background-color: transparent;
 
 @media (max-width: 607px) {
 
+    .about-section{
+        margin-top: 4em;
+    }
 .project-card {
     flex-direction: inline;
     text-align: center;
@@ -680,5 +684,31 @@ background-color: transparent;
 }
 .text-content p {
     font-size: 0.6rem;
+}
+.btn-skill{
+    font-size: 0.6em;
+    padding: 0.1em;
+}
+.tab-container{
+    margin-bottom: 1em;
+    padding: none;
+}
+.list li {
+ 
+    font-size: 0.43rem;
+  }
+  .ul-item{
+    padding: 0px 2em 0px 2em;
+  }
+  .toolList{
+    margin:none;
+    padding: none;
+  }
+  .image-content{
+    margin-bottom: 10em;
+  }
+  .text-content {
+    padding: 0;
+    height: auto;
 }
 }

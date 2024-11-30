@@ -255,7 +255,7 @@ body {
     width: 70%;
     max-width: 170px;
     height: auto;
-    border-radius: 60px;
+    border-radius: 30px;
     border: 1px solid #63E6BE;
     margin-top: 20px;
     transition: 0.5s;
@@ -476,6 +476,78 @@ background-color: transparent;
 
 
 /* responsives */
+@media (max-width: 1200px) {
+    .list li {
+ 
+        font-size: 0.8rem;
+      }
+    .about-section {
+       
+        padding:10vh;
+       height: auto;
+       width: auto;
+       margin-top: 10vh;
+    }
+    .about-me{
+        padding:0vh;
+    }
+    .text-content h2 {
+        font-size: 3vh;
+    }
+    .text-content p {
+        font-size: 1rem;
+    }
+    .tech-list {
+        font-size: 0.9rem;
+        gap: 5px;
+    }
+    .tab-content h5{
+        font-size: 0.9rem;
+    }
+    .image-content img {
+        width: 80%;
+        border-radius: 30px;
+    }
+    .btn-skill {
+        width: auto;
+        padding: 10px 10px;
+        font-size: 1rem;
+    }
+    .project-card {
+        flex-direction: inline;
+        text-align: center;
+       height: 20vh;
+       
+    }
+
+    .project-image img {
+        width: 100%; 
+        max-width: 300px; 
+    }
+    .icon-project  {
+        font-size: 1em;
+      
+    }
+    .project-description {
+        font-size: 0.8em;
+        line-height: 1.5;
+       
+    }
+
+    #contactForm{
+        display: flex;
+        flex-direction: column;
+       height: 20;
+    }    
+
+    .form-control{
+      padding: auto;
+      height: auto;
+       }
+    
+
+}
+
 
 @media (max-width: 991px) {
     .sidebar{

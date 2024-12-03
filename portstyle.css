@@ -617,10 +617,17 @@ background-color: transparent;
       padding: auto;
       height: auto;
        }
+
+       .ul-item{
+        padding: 0.1em;
+    }
+    .tab-container{
+        padding: 0.1em;
+    }
     
 
 }
-@media (max-width: 706px) {
+@media (max-width: 870px) {
     .about-section {
        
         padding:5vh;
@@ -648,7 +655,7 @@ background-color: transparent;
         font-size: 0.6rem;
     }
     .image-content img {
-        width: 130px!important;
+        width: 10em!important;
     }
     .btn-skill {
         width: auto;
@@ -675,9 +682,16 @@ background-color: transparent;
         line-height: 1.5;
      
     }
+    #education p{
+        font-size: 1.5em;
+      }
+      .text-content p{
+        font-size: 1.2em;
+    }
+    
 }
 
-@media (max-width: 607px) {
+@media (max-width: 780px) {
 
     .about-section{
         margin-top: 4em;
@@ -768,7 +782,7 @@ background-color: transparent;
 }
 .list li {
  
-    font-size: 0.43rem;
+    font-size: 0.6rem;
   }
   .ul-item{
     padding: 0px 2em 0px 2em;
@@ -784,4 +798,23 @@ background-color: transparent;
     padding: 0;
     height: auto;
 }
+.text-content p{
+    font-size: 0.9em;
+}
+#education p{
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 380px) {
+    .text-content p{
+        font-size: 0.5em;
+    }
+    .list li {
+ 
+        font-size: 0.5rem;
+      }
+      #education p{
+        font-size: 1em;
+      }
 }
